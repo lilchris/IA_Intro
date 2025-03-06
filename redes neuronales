@@ -18,5 +18,5 @@ posición del tablero.
 Teniendo así patrones de ataque y de defensa.
 En las entradas sólo se tendrán las coordenadas de cada movimiento.
 En las salidas se esperará un vector de 400 elementos en donde prediga la probabilidad del mejor movimiento.
-
+Los valores máximos del bias serían del 0 al 19, ya que son los rangos de coordenadas
 '''
