@@ -1,0 +1,22 @@
+'''
+Christian Rojas Anaya
+
+Modelar una red neuronal que pueda jugar al 5 en línea sin gravedad en un tablero de 20*20.
+
+-Definir el tipo de red neuronal y describir cada una de sus partes.
+-Definir los patrones a utilizar.
+-Definir función de activación es necesaria para este problema.
+-Definir el número máximo de entradas.
+-¿Qué valores a la salida de la red se podrían esperar?
+-¿Cuáles son los valores máximos que puede tener el bias?
+'''
+
+'''
+La red neuronal será profunda convolucional, con dos neuronas de entrada, tres de capa intermedia, otras tres de capa intermedia y una de salida.
+La entrada sería la coordenada a la que moverían los jugadores, pasando por la capa 1 para valorar las probabilidades de ataque, la segunda capa valoraría las capas defensivas, para que finalmente la salida sea un vector en donde esté calculado las probabilidades de movimiento de cada
+posición del tablero.
+Teniendo así patrones de ataque y de defensa.
+En las entradas sólo se tendrán las coordenadas de cada movimiento.
+En las salidas se esperará un vector de 400 elementos en donde prediga la probabilidad del mejor movimiento.
+
+'''
