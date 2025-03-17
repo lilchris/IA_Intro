@@ -20,3 +20,10 @@ En las entradas sólo se tendrán las coordenadas de cada movimiento.
 En las salidas se esperará un vector de 400 elementos en donde prediga la probabilidad del mejor movimiento.
 Los valores máximos del bias serían del 0 al 19, ya que son los rangos de coordenadas
 '''
+
+1- red neuronal multicapa
+2- movimientos realizados de jugador a jugador
+3- softmax()
+4- 400
+5- posible movimiento a realizar
+6- no se sabe qué valor puede tener el bias.
